@@ -106,22 +106,117 @@
 
 <h1 align="center">Image button</h1>
 <form action="http://www.example.com/email_list.php">
-     <p>Subscribe to our email list <br/>
-    <input type="email" name="email list">
+     <p>Subscribe to our email list: <br/>
+    <input type="email" name="email list"><br>
     <input type="image" src="images/subscribe.jpg" height="20" width="100"></p>
 </form>
 <hr/>
 
-<h1 align="center"></h1>
-<h1 align="center"></h1>
-<h1 align="center"></h1>
-<h1 align="center"></h1>
-<h1 align="center"></h1>
-<h1 align="center"></h1>
-<h1 align="center"></h1>
-<h1 align="center"></h1>
+<h1 align="center">Button and hidden controls</h1>
+<form action="https://www.example.com/add.php">
+    <button>
+        <img src="images/add.gif" alt="add">
+        Add
+    </button>
+    <button>Add</button>
+    <input type="hidden" name="bookmark" value="lyrics">
 
+</form>
+<hr>
 
+<h1 align="center">Labeling form controls</h1>
+<form action="">
+    <label>
+        Age:
+        <input type="text" name="age" required>
+    </label>
+    <br>
+    Gender:
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+</form>
+<hr>
+
+<h1 align="center">Grouping form elements</h1>
+<fieldset>
+    <legend>Contact details</legend>
+    <label>
+        Email: <br>
+        <input type="text" name="email">
+    </label><br>
+    <label>
+        Mobile:<br>
+        <input type="text" name="mobile">
+    </label><br>
+<label>
+Telephone:<br>
+<input type="text" name="telephone">
+</label>
+</fieldset>
+<hr>
+
+<h1 align="center">Form validation</h1>
+
+<form>
+    <p>
+        <label>
+        Username: 
+        <input type="text" name="username" required>
+    </label></p>
+    <p>
+    <label> 
+        Password:
+        <input type="password" name="password" required>
+    </label>
+    </p>
+    <input type="submit" value="login">
+</form>
+<hr>
+
+<h1 align="center">Date input</h1>
+<form>
+    <label for="date"> What's your date of birth?<br><br>
+        <input type="date" name="date-of-birth" id="date">
+    </label><br><br>
+    <input type="submit" value="Submit">
+</form>
+<hr>
+
+<h1 align="center">Email input</h1>
+
+<form>
+    <label>
+      Please enter your email address:<br>
+      <input type="email" name="email">  
+    </label>
+    <input type="submit" value="Submit">
+</form>
+<hr>
+
+<h1 align="center">URL input</h1>
+<form action="">
+<p><label>Please enter your website address:</label></p>
+    <input type="url" name="website">
+<input type="submit" value="Submit">
+</form>
+<hr>
+<h1 align="center">Search input</h1>
+<form>
+<p>Search</p>
+<input type="search" name="search">
+<input type="submit" value="Search">
+</form>
+<hr>
+<h1 align="center">Placeholder</h1>
+<form>
+    <p>Search</p>
+<input type="search" name="search" placeholder="Enter your keywords">
+<input type="submit" value="Search">
+</form>
+<hr>
+<a href="Chapter eight.html">Next Chapter</a>
 
 
 
