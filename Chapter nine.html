@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter Nine</title>
+</head>
+<body>
+    <a href="/Chapter eight.html">Previous Chapter(8)</a>
+    <h1 align="center">Chapter Nine</h1>
+    <hr>
+    <h3>Video</h3>
+    <video src="/video/puppy.mp4"
+            poster="/images/otters.jpg"
+            height="350"
+            width="450"
+            controls
+            autoplay
+            muted>
+        </video>
+        <hr>
+        <!-- multiple source of same video for multiple formats -->
+        <video 
+        poster="images/otters.jpg"
+        height="350"
+            width="450"
+            controls
+            loop
+            preload="none">
+            <source src="video/puppy.webm" type="video/webm">
+                <source src="video/puppy.mp4" type="video/mp4">
+        </video>
+        <hr>
+        <h3>Audio</h3>
+        <audio src="audio/test-audio.mp3" controls autoplay muted>
+        <p><strong> Doesn't support audio format</strong></p></audio>
+        <hr>
+        <!-- multiple source of same audio for multiple formats -->
+        <!-- controls attribute is a must for audios -->
+        <audio controls autoplay muted>
+            <source src="audio/test-audio.mp3" type="audio/mp3">
+            <source src="audio/test-audio.ogg" type="audio/ogg">
+        </audio><hr>
+        <a href="chapter ten.html">Next chapter(10)</a>
+</body>
+</html>
