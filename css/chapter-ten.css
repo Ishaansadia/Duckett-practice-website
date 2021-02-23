@@ -1,3 +1,4 @@
+body {padding: 15px;}
 * {font-family: Arial, verdana, sans-serif;}
 h1 {font-family:'Courier New', Courier, monospace;}
 h2.headings {text-align: center;}
@@ -8,3 +9,8 @@ p b {color: sienna !important;}
 p b {color: steelblue;}
 p#intro {font-size: 150%;}
 p {font-size: 95%;}
+.more {font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    border: 1px solid #665544;
+    background-color: #efefef;
+    padding: inherit;}

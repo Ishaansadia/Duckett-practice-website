@@ -1,0 +1,10 @@
+h1.headings {text-align: center;}
+
+
+/* font-family */
+.fntfmly {font-family: Georgia, 'Times New Roman', Times, serif}
+h1.fntfmly, h2.fntfmly {font-family: arial, verdana, sans-serif}
+p.fntfmly1-credits {font-family: 'Courier New', Courier, monospace;}
+
+
+/* font-size */
